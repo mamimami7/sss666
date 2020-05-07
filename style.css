@@ -145,22 +145,44 @@ author{
 }
 
 img{
-    margin:auto;
-    display:block;
+    display: block;
+   margin:0 auto;
+ text-align: center;
 }
 
+a{
+display:inline-block;
+text-align: center;
+}
+
+
+.welcome{
+    display: block;
+}
+
+.image{
+   text-align: center;
+    margin:0 auto;
+}
 
 @media screen and (max-width:768px) {
-img{
-    text-align:center;
-}
-a{
-    display:block;
-}
 .welcome{
     text-align: center;
-    font-size:13px;
-    padding:5px
+    font-size:15px;
 }
+
+img{
+    display: block;
+   margin:0 auto;
+ text-align: center;
+}
+a{
+    display:inline-block;
+    text-align: center;
+    }
+    .image{
+       width:%;
+     }
+    
 }
 
